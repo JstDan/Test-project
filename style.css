@@ -1,0 +1,645 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+
+.bodyText {
+  font-size: 1vw;
+}
+
+
+.navbar,
+.footer,
+.firstSectionContainer,
+.secondSectionContainer,
+.grid-gallery {}
+
+.firstSectionContainerText p,
+.secondSectionContainerText p {
+  text-align: left;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-content: center;
+}
+
+.headerContent {
+  width: 100%;
+  max-width: 75rem;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 5%;
+}
+
+.logo {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.headerMenu {
+  display: flex;
+  width: 35%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.headerMenu a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerButton1 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  width: 20%;
+  height: 40%;
+  color: black;
+}
+
+.headerButton1:hover a {
+  cursor: pointer;
+  color: #f07744;
+  text-decoration: underline;
+}
+
+.headerButton2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  /* <— Adds smooth hover effect */
+  width: 20%;
+  height: 40%;
+  color: black;
+}
+
+.headerButton2:hover a {
+  cursor: pointer;
+  color: #f07744;
+  text-decoration: underline;
+}
+
+.headerButton3 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  width: 20%;
+  height: 40%;
+  color: black;
+}
+
+.headerButton3:hover a {
+  cursor: pointer;
+  color: #f07744;
+  text-decoration: underline;
+}
+
+.headerButton4 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  align-items: center;
+  width: 20%;
+  height: 40%;
+  color: black;
+}
+
+.headerButton4:hover a {
+  cursor: pointer;
+  color: #f07744;
+  text-decoration: underline;
+}
+
+
+.hero {
+  width: 100vw;
+  height: 40rem;
+  /* position: relative; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.hero {}
+
+.hamburgerMenu {
+  display: none
+}
+
+.heroTextContainer {
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  width: 95%;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  gap: 2rem;
+  text-shadow: 0.04rem 0.04rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+
+.heroTitle {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+.heroSubTitleContainer {
+  width: 20rem;
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 1.2rem;
+  display: flex;
+  width: 20rem;
+  margin: 0;
+}
+
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 75rem;
+  gap: 2rem;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.heroButton {
+  display: flex;
+  width: 95%
+}
+
+.heroButton a {
+  text-decoration: none;
+}
+
+.heroButtonContent {
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: bold;
+  color: white;
+  border-radius: 3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.04rem;
+}
+
+.heroButtonContent:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.heroImage {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: bottom;
+  z-index: 0;
+  transform: scaleX(-1);
+}
+
+
+
+.sectionContainer {}
+
+.firstSectionContainerWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.firstSectionContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 75rem;
+  gap: 5%;
+}
+
+.firstSectionContainerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+  width: 45%;
+  height: 100%;
+}
+
+.firstSectionContainerTitle {
+  font-size: xx-large;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.firstSectionContainerParagraph {
+  font-weight: medium;
+}
+
+.firstSectionButton {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.firstSectionButton a {
+  text-decoration: none;
+}
+
+.firstSectionImageContainer {
+  display: flex;
+  width: 45%;
+}
+
+.firstSectionImage {
+  border-radius: 0.5rem;
+}
+
+.firstSectionImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.secondSectionContainerWrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.secondSectionContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 75rem;
+  gap: 5%;
+}
+
+
+.secondSectionContainerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+  width: 45%;
+  height: 100%;
+}
+
+
+.secondSectionContainerTitle {
+  font-size: xx-large;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondSectionContainerParagraph {
+  font-weight: medium;
+}
+
+
+.secondSectionButton {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%
+}
+
+.sectionButtonContent:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.secondSectionButton a {
+  text-decoration: none;
+}
+
+.sectionButtonContent {
+  width: 9rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+  border-width: 1.5px;
+
+  text-transform: uppercase;
+  position: relative;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  border-radius: 3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.04rem;
+}
+
+
+
+.secondSectionImageContainer {
+  display: flex;
+  width: 45%;
+}
+
+.secondSectionImage {
+  border-radius: 0.5rem;
+}
+
+.secondSectionImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.grid-galleryBackground {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-galleryWrapper {
+  width: 75rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem;
+  width: 95%;
+  max-width: 75rem;
+  box-sizing: border-box;
+}
+
+.grid-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* запазва пропорции */
+  display: block;
+  aspect-ratio: 1 / 1;
+}
+
+/* Голяма снимка - заема първите 2 реда в първата колона */
+.large-image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+/* Малките снимки автоматично се разпределят в останалите клетки */
+.small-image:nth-of-type(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.small-image:nth-of-type(3) {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.small-image:nth-of-type(4) {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.small-image:nth-of-type(5) {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+
+.footerWrapperContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-color: black;
+  height: 20rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 75rem;
+  box-sizing: border-box;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.footerLeftTextBox,
+.footerCenterTextBox,
+.footerRightTextBox {
+  width: 33.3%;
+  box-sizing: border-box;
+  /* Optional spacing inside */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  color: white;
+}
+
+.footerLeftTextBox p {
+  text-align: center;
+}
+
+.footerCenterTextBox p {
+  text-align: center;
+}
+
+.footerRightTextBox p {
+  text-align: center;
+}
+
+
+/* mobileViewMediaQuery */
+
+
+
+@media(max-width:1000px) {
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+
+  .bodyText {
+    font-size: 2.5vw;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headerMenu {
+    display: none
+  }
+
+  .headerContent {
+    width: 95%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-size: 1.5rem;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .heroTitle {
+    font-size: 5rem;
+  }
+
+  .heroSubTitleContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+  }
+
+  .heroContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10rem;
+    height: 30rem;
+  }
+
+  .heroButton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .heroButtonContent {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+  }
+
+  .firstSectionContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    gap: 5%;
+  }
+
+  .firstSectionContainerText {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 50vw;
+    font-size: 1.5vw;
+  }
+
+  .firstSectionButton {
+    display: flex;
+    justify-content: center;
+  }
+
+  .firstSectionContainerTitle {
+    font-size: 5vw;
+  }
+
+
+  .firstSectionImage,
+  .firstSectionImageContainer {
+    width: 100vw;
+    height: 30vh;
+  }
+
+}
