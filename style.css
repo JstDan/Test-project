@@ -699,6 +699,10 @@ body {
     letter-spacing: 0.04rem;
   }
 
+  .sectionButtonContent:hover {
+    display: none
+  }
+
 
   .firstSectionButton,
   .secondSectionButton {
