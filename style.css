@@ -543,10 +543,9 @@ body {
 
 
   .bodyText {
-    /* font-size: 1.8rem; */
-    margin: 0;
-    width: 50rem;
-    font-weight: 500;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0
   }
 
   .body {
@@ -608,10 +607,7 @@ body {
     line-height: 1.2
   }
 
-  .heroSubTitleContainer p {
-    font-size: 2.1rem;
-    font-weight: 600;
-  }
+  .heroSubTitleContainer p {}
 
   .heroContent {
     display: flex;
