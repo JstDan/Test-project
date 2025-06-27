@@ -645,9 +645,9 @@ body {
   }
 
   .heroButtonContent {
-    width: 16rem;
-    height: 5.5rem;
-    font-size: 1.6rem;
+    width: 20rem;
+    height: 6rem;
+    font-size: 1.8rem;
     font-weight: 600;
   }
 
@@ -681,8 +681,9 @@ body {
   }
 
   .sectionButtonContent {
-    width: 16rem;
-    height: 5rem;
+    width: 20rem;
+    height: 6rem;
+    font-size: 1.8rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -693,10 +694,8 @@ body {
 
     text-transform: uppercase;
     position: relative;
-    font-weight: bold;
     color: rgb(0, 0, 0);
     border-radius: 3rem;
-    font-size: 1.6rem;
     letter-spacing: 0.04rem;
   }
 
