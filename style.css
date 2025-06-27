@@ -543,7 +543,7 @@ body {
 
 
   .bodyText {
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     margin: 0;
     width: 50rem;
     font-weight: 500;
@@ -596,16 +596,21 @@ body {
   }
 
   .heroTitle {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 
   .heroSubTitleContainer {
     display: flex;
     justify-content: center;
     text-align: left;
-    width: 50vw;
+    width: 80%;
     height: 50%;
     line-height: 1.2
+  }
+
+  .heroSubTitleContainer p {
+    font-size: 2.1rem;
+    font-weight: 600;
   }
 
   .heroContent {
@@ -613,7 +618,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 30rem;
-    gap: 5rem
+    gap: 6rem
   }
 
   .heroImage {
@@ -663,7 +668,11 @@ body {
     align-items: flex-start;
     height: 30rem;
     width: 80%;
-    font-size: 1.5vw;
+  }
+
+  .firstSectionContainerParagraph p,
+  .secondSectionContainerParagraph p {
+    font-size: 1.8rem;
   }
 
   .firstSectionTextButton {
