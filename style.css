@@ -916,16 +916,16 @@ body {
 
 
   .footerWrapperContainer {
-    height: 100%;
+    height: auto;
   }
 
   .footerContent {
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 95%;
-    height: 40rem;
+    height: auto;
     background-color: #000000;
     gap: 2rem;
   }
@@ -950,7 +950,7 @@ body {
   .footerLeftTextBox p,
   .footerCenterTextBox p,
   .footerRightTextBox p {
-    text-align: left;
+    text-align: center;
     font-size: 1.3rem;
     text-transform: uppercase;
     margin: 0.5rem 0;
