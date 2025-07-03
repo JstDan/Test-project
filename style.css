@@ -857,7 +857,7 @@ body {
     height: auto;
     margin: 1rem 0;
     border: 1px solid #ddd;
-    gap: 5%;
+    gap: 3rem;
     flex-wrap: wrap;
     flex: 1 1 20rem;
     flex-shrink: 1;
@@ -888,8 +888,11 @@ body {
   }
 
   .buttonBuyWrapper {
+    display: flex;
     justify-content: center;
     height: auto;
+    width: 100%;
+    padding: 0rem;
   }
 
   .productCardText {
