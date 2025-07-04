@@ -604,7 +604,7 @@ body {
 .buttonBuy {
   width: 12rem;
   height: 3rem;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.4rem;
   border: none;
   border-radius: 0.4rem;
@@ -643,25 +643,6 @@ body {
   .body {
     display: flex;
     flex-direction: column;
-  }
-
-  .firstSectionContainerParagraph,
-  .secondSectionContainerParagraph {
-    font-size: 1.2rem;
-  }
-
-  .firstSectionContainerWrapper,
-  .secondSectionContainerWrapper {
-    overflow: visible;
-  }
-
-  .firstSectionContainer,
-  .secondSectionContainer {}
-
-  .firstSectionButton,
-  .secondSectionButton {
-    justify-content: center;
-    padding-bottom: 1rem;
   }
 
 
@@ -756,6 +737,23 @@ body {
     font-weight: 600;
   }
 
+  .firstSectionContainerParagraph,
+  .secondSectionContainerParagraph,
+  .sectionButtonContent,
+  .buttonBuy,
+  .productTitle {
+    font-size: 1rem
+  }
+
+  .firstSectionContainerWrapper,
+  .secondSectionContainerWrapper {
+    overflow: visible;
+  }
+
+  .firstSectionContainer,
+  .secondSectionContainer {}
+
+
   .firstSectionContainer,
   .secondSectionContainer {
     display: flex;
@@ -764,7 +762,7 @@ body {
     align-items: center;
     padding-top: 0rem;
     width: 100vw;
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .firstSectionContainerText,
@@ -784,15 +782,15 @@ body {
   }
 
 
-  .firstSectionTextButton {
-    display: flex;
-    width: 80%;
+  .firstSectionButton a,
+  .secondSectionButton a {
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 100%;
   }
 
   .sectionButtonContent {
-    width: 20rem;
-    height: 6rem;
-    font-size: 1.8rem;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -800,11 +798,13 @@ body {
     background-color: #ffffff;
     border: 3px solid rgba(0, 0, 0, 0.5);
     border-width: 3px;
-
+    width: 51.3%;
+    height: 68%;
+    flex: 1;
     text-transform: uppercase;
     position: relative;
     color: rgb(0, 0, 0);
-    border-radius: 3rem;
+    border-radius: 0.4rem;
     letter-spacing: 0.04rem;
   }
 
@@ -815,15 +815,9 @@ body {
   }
 
 
-  .firstSectionButton,
-  .secondSectionButton {
-    display: flex;
-    justify-content: center;
-  }
-
   .firstSectionContainerTitle,
   .secondSectionContainerTitle {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 
 
@@ -877,28 +871,29 @@ body {
     grid-row: 4 / 5;
   }
 
+  .productContainerWrapper {
+    display: flex;
+  }
+
   .productCard {
-    width: 30%;
+    width: 45%;
     background-color: #DDD;
     height: auto;
     margin: 1rem 0;
     border: 1px solid #ddd;
-    gap: 3rem;
+    gap: 5%;
     flex-wrap: wrap;
-    flex: 1 1 20rem;
     flex-shrink: 1;
     flex-grow: 0;
-    padding: 1rem;
+    padding-bottom: 1%
   }
 
   .productContainer {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
     max-width: 62rem;
     margin: 0;
-    gap: 1rem;
     flex-wrap: wrap;
   }
 
@@ -907,10 +902,34 @@ body {
     flex-direction: row;
     justify-content: center;
     width: auto;
+    height: auto;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin: 0;
-    padding-top: 1rem;
+  }
+
+  .productImage {
+    width: 100%
+  }
+
+  .productCardText {
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+
+
+  .productPrice {
+    font-size: 0.8rem;
+  }
+
+  .productDescription {
+    display: -webkit-box;
+    font-size: 0.8rem;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .buttonBuyWrapper {
@@ -921,24 +940,15 @@ body {
     padding: 0rem;
   }
 
-  .productCardText {
-    width: 100%;
-    max-width: 20rem;
-  }
 
   .buttonBuy {
     width: auto;
     height: auto;
-    padding-left: 8.5rem;
-    padding-right: 8.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    width: 95%;
   }
 
-  .buttonBuyWrapper {
-    max-width: 20rem;
-  }
 
 
   .footerWrapperContainer {
