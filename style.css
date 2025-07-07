@@ -657,7 +657,7 @@ body {
   }
 
   .headerContent {
-    width: 95%;
+    width: 80%;
     height: 7vh;
     display: flex;
     justify-content: space-between;
@@ -675,7 +675,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 47rem;
+    aspect-ratio: 3/4;
+    height: auto;
   }
 
   .heroTextContainer {
@@ -883,10 +884,10 @@ body {
 
   .productCard {
     width: 45%;
-    background-color: #DDD;
+    background-color: #f5f5f5;
     height: auto;
     margin: 1rem 0;
-    border: 1px solid #ddd;
+    border: 1px solid #f6f6f6;
     gap: 5%;
     flex-wrap: wrap;
     flex-shrink: 1;
